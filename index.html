@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>33-Day | Notes App</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__title">Smart Notes</div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="notes">
+                <div class="notes__add">
+                    <div class="notes__header">Add Note</div>
+                    <hr />
+                    <div class="notes__form">
+                        <input
+                            type="text"
+                            class="notes__input"
+                            placeholder="Note title"
+                        />
+                        <textarea
+                            class="notes__textarea"
+                            placeholder="Note details"
+                        ></textarea>
+                        <button class="notes__add-btn">Add Note</button>
+                    </div>
+                </div>
+
+                <div class="notes__notes">
+                    <div class="notes__header">
+                        <h3>Your Notes</h3>
+                        <button class="notes__delete-all">
+                            Delete all notes
+                        </button>
+                    </div>
+                    <hr />
+                    <div class="notes__items"></div>
+                    <p class="no-notes">No notes added, Please add a note</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
